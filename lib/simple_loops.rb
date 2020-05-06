@@ -31,6 +31,7 @@ def return_string_array(array)
 
   while counter <= array.length
     array[counter].to_s
-    binding.pry
+    counter += 1
   end
+  binding.pry
 end
