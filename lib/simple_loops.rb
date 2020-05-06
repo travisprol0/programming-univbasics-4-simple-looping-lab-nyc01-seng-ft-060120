@@ -28,7 +28,9 @@ end
 
 def return_string_array(array)
   counter = 0
-binding.pry
+
   while counter <= array.length
+    array[counter].to_s
+    binding.pry
   end
 end
